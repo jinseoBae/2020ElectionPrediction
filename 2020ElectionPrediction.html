@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          a:hover { background-color: lightgray ;position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted lightgray;}
+        a img {
+        width: 100%;
+      height: auto;
+        }
+        .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted lightgray; /* If you want dots under the hoverable text */
+}
+body{
+  background-color: snow;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+h1{
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color:sienna;
+}
+h2{
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+        </style>
+    </head>
+
+    
+    <body>
+    <h1 align = 'center'> < Lab 4: 2020 U.S. Election ></h1>
+      
+    <h2> First Insight: What kinds of voters voted for which candidate? </h2>
+      <h3>According to this two visualizations, there is an evidence that Donald Trump could be reelected because most 
+        of answers from likely voters, who have higher possibilities to involve in election 2020, was Donald Trump.</h3>
+    <p></p>
+    <div class ="tooltip">
+    <h4>Chart1 & 2: <a href="chart6.html">2020 Election Candidates by Voters
+      <span class="tooltiptext">Click to See Details</span>
+    <img src="visualization (2).png" ></a>
+  </h4>
+
+    </div>
+  <br>
+      <h2>Second Insight: Compare Top Candidate from Each Party to see their relationship by comparing their weekly pct changes</h2>
+      <h3>According to the pct values and these visualization below, there are inverse proportion relationship between 
+        two different parties. Also, it indicates that Joseph Biden has more possibilities to be elected than Donald Trump.</h3>
+        <div class ="tooltip">
+        <h4>Chart1 & 2: <a href="together.html">Compare Top Candidate from Each Party
+        <span class="tooltiptext">Click to See Details</span>
+        <img src="visualization (4).png" >
+      </a></h4>
+    <br>
+  </div>
+
+    <h2>Third Insight: Who is Winning By the State?</h2>
+    <h3>According to 18 different states of the U.S., Democrtic party showed more dominance of election 2020 than Republican party. 
+      And it indicates that Joseph Biden has higher percentage of getting elected in 2020 than Donald Trump.</h3>
+      <div class ="tooltip">
+      <h4>Chart1 & 2:<a href="chart_geo.html">Who is Winning By the State?
+      <span class="tooltiptext">Click to See Details</span>
+      <img src="visualization (3).png">
+    </a></h4>
+  </div>
+    </body>
+</html>
